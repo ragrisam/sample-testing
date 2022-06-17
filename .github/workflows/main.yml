@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: nishanthkp/app:latest
+          tags: ragrisam/app:latest
