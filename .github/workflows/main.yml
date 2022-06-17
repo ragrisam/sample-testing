@@ -9,8 +9,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Docker version
-        run: docker -version
+
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -28,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: user/app:latest
+          tags: nishanthkp/app:latest
